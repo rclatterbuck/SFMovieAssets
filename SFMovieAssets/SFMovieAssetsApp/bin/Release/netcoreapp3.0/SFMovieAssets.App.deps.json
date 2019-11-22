@@ -1,0 +1,132 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "SFMovieAssets.App/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "3.0.1",
+          "Refit": "5.0.23",
+          "SFMovieAssets.Manager": "1.0.0",
+          "SFMovieAssets.Proxies": "1.0.0"
+        },
+        "runtime": {
+          "SFMovieAssets.App.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.119.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.119.53103"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Refit/5.0.23": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Refit.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.23.44935"
+          }
+        }
+      },
+      "SFMovieAssets.Manager/1.0.0": {
+        "dependencies": {
+          "SFMovieAssets.Proxies": "1.0.0"
+        },
+        "runtime": {
+          "SFMovieAssets.Manager.dll": {}
+        }
+      },
+      "SFMovieAssets.Models/1.0.0": {
+        "runtime": {
+          "SFMovieAssets.Models.dll": {}
+        }
+      },
+      "SFMovieAssets.Proxies/1.0.0": {
+        "dependencies": {
+          "Refit": "5.0.23",
+          "SFMovieAssets.Models": "1.0.0"
+        },
+        "runtime": {
+          "SFMovieAssets.Proxies.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SFMovieAssets.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LYe7cQ8bfWBzbBNZwXsCyvv8wxpiYO1ensbD/LbuUGRVlspSCpfWqUn0fglyZYVMH0wiWhLj1nFooAc8H/UoQA==",
+      "path": "microsoft.extensions.dependencyinjection/3.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VnytRin0q78cwdhZZ5YAO+6cg0By0iJkk9IoK/vE1vI0qMM6oOjlXNlEFdDRtMXsAmxMPNaRcnpgEJCTe8l76Q==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Refit/5.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Hc55wSJck4XfgCBTSnU1autqVk9Qq7aBa3xf829qX8aL6UInUhq0ZN5EzFlcffefUyNOdOJ9R37aK7/BnlOww==",
+      "path": "refit/5.0.23",
+      "hashPath": "refit.5.0.23.nupkg.sha512"
+    },
+    "SFMovieAssets.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SFMovieAssets.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SFMovieAssets.Proxies/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
