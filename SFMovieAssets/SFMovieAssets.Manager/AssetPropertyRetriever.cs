@@ -14,7 +14,7 @@ namespace SFMovieAssets.Manager
         /// <summary>
         /// The proxy interface for SWAPI
         /// </summary>
-        private readonly IStarWarsAPI _swapi;
+        private readonly IStarWarsApi _swapi;
 
         /// <summary>
         /// The list of values already returned to the console.
@@ -40,7 +40,7 @@ namespace SFMovieAssets.Manager
         /// </summary>
         public AssetPropertyRetriever()
         {
-            _swapi = RestService.For<IStarWarsAPI>("https://swapi.co/api");
+            _swapi = RestService.For<IStarWarsApi>("https://swapi.co/api");
             _returnedValues = new List<string>();
             _addValuesLock = new object();
 

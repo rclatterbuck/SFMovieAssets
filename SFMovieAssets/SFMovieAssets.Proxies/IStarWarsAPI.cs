@@ -4,7 +4,7 @@ using SFMovieAssets.Models;
 
 namespace SFMovieAssets.Proxies
 {
-    public interface IStarWarsAPI
+    public interface IStarWarsApi
     {
         /// <summary>
         /// A search for films by episode title
