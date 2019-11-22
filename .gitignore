@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SFMovieAssets/.vs/SFMovieAssets/DesignTimeBuild/.dtbcache
+/SFMovieAssets/.vs/SFMovieAssets/v16/Server/sqlite3/db.lock
+/SFMovieAssets/.vs/SFMovieAssets/v16/Server/sqlite3/storage.ide
+/SFMovieAssets/.vs/SFMovieAssets/v16/Server/sqlite3/storage.ide-shm
+/SFMovieAssets/.vs/SFMovieAssets/v16/Server/sqlite3/storage.ide-wal
+/SFMovieAssets/.vs/SFMovieAssets/v16/.suo
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Manager.deps.json
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Manager.dll
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Manager.pdb
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Models.dll
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Models.pdb
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Proxies.dll
+/SFMovieAssets/SFMovieAssets.Manager/bin/Debug/netstandard2.0/SFMovieAssets.Proxies.pdb
+/SFMovieAssets/SFMovieAssets.Manager/obj/Debug/netstandard2.0
+/SFMovieAssets/SFMovieAssets.Manager/obj/Release/netstandard2.0
+/SFMovieAssets/SFMovieAssets.Manager/obj
+/SFMovieAssets/SFMovieAssets.Models/bin/Debug/netstandard2.0
+/SFMovieAssets/SFMovieAssets.Models/obj
+/SFMovieAssets/SFMovieAssets.Proxies/bin/Debug/netstandard2.0
+/SFMovieAssets/SFMovieAssets.Proxies/obj
+/SFMovieAssets/SFMovieAssets.Test/obj
+/SFMovieAssets/SFMovieAssetsApp/bin/Debug/netcoreapp3.0
+/SFMovieAssets/SFMovieAssetsApp/obj
