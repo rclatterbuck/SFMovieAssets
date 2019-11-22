@@ -15,7 +15,7 @@ namespace SFMovieAssets.Models
         public string gender { get; set; }
         public string homeworld { get; set; }
         public List<string> films { get; set; }
-        public string species { get; set; }
+        public List<string> species { get; set; }
         public List<string> vehicles { get; set; }
         public List<string> starships { get; set; }
         public DateTime created { get; set; }

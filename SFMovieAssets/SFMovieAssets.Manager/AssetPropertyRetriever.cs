@@ -103,9 +103,9 @@ namespace SFMovieAssets.Manager
         {
             // Use Reflection to cache the property type.
             var prop = typeof(People).GetProperty(propertyName);
-            if (prop == null)
+            if (prop == null || prop.PropertyType != typeof(string))
             {
-                Console.WriteLine($"The property value of {propertyName} does not exist on the People Type.");
+                Console.WriteLine($"The property value of {propertyName} does not exist as a string on the People Type.");
                 return;
             }
 
@@ -116,7 +116,7 @@ namespace SFMovieAssets.Manager
 
                 if (character != null)
                 {
-                    ReturnValue(prop?.GetValue(character).ToString());
+                    ReturnValue((string)prop.GetValue(character));
                 }
             });
         }
@@ -130,9 +130,9 @@ namespace SFMovieAssets.Manager
         {
             // Use Reflection to cache the property type.
             var prop = typeof(Planet).GetProperty(propertyName);
-            if (prop == null)
+            if (prop == null || prop.PropertyType != typeof(string))
             {
-                Console.WriteLine($"The property value of {propertyName} does not exist on the Planet Type.");
+                Console.WriteLine($"The property value of {propertyName} does not exist as a string on the Planet Type.");
                 return;
             }
 
@@ -144,7 +144,7 @@ namespace SFMovieAssets.Manager
 
                 if (planet != null)
                 {
-                    ReturnValue(prop?.GetValue(planet).ToString());
+                    ReturnValue((string)prop.GetValue(planet));
                 }
             });
         }
@@ -158,9 +158,9 @@ namespace SFMovieAssets.Manager
         {
             // Use Reflection to cache the property type.
             var prop = typeof(Starship).GetProperty(propertyName);
-            if (prop == null)
+            if (prop == null || prop.PropertyType != typeof(string))
             {
-                Console.WriteLine($"The property value of {propertyName} does not exist on the Starship Type.");
+                Console.WriteLine($"The property value of {propertyName} does not exist as a string on the Starship Type.");
                 return;
             }
 
@@ -171,7 +171,7 @@ namespace SFMovieAssets.Manager
 
                 if (starship != null)
                 {
-                    ReturnValue(prop?.GetValue(starship).ToString());
+                    ReturnValue((string)prop.GetValue(starship));
                 }
             });
         }
